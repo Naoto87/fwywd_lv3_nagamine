@@ -4,3 +4,10 @@ body {
   font-weight: 800;
   color: #384459;
 }
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+}
