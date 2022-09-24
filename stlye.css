@@ -7,151 +7,122 @@ body {
 img {
   display: inline;
 }
-
+/* レイアウト */
 .flex {
   display: flex;
 }
 
-@media screen and (max-width: 1930px) {
-  .header__container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
-    align-items: center;
-  }
-
-  .header__items {
-    display: flex;
-    list-style: none;
-  }
-
-  .header__items-li {
-    border-right: solid 2px #e4e4e4;
-    padding: 0 20px;
-  }
-
-  .header__items-li:last-child {
-    border-right: none;
-  }
-  .header__items-a {
-    text-decoration: none;
-    color: #384459;
-  }
-
-  .header__btn {
-    display: flex;
-    text-decoration: none;
-    background-color: #007979;
-    color: white;
-    padding: 20px 40px;
-    gap: 0 10px;
-  }
-
-  .header__btn:hover {
-    opacity: 0.7;
-    transition: 0;
-  }
-
-  .top {
-    text-align: center;
-  }
-
-  .top__hero1 {
-    background-image: url(./img/hero01_bg01.jpg);
-    background-size: cover;
-  }
+.block {
+  display: block;
 }
 
-/* ------------------------------------------------------------------- */
-/* iphone 639 */
-/* ------------------------------------------------------------------- */
-@media screen and (max-width: 639px) {
-  .header__container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    align-items: center;
-  }
+.h-100 {
+  height: 100%;
+}
 
-  .header__items {
-    display: none;
-    list-style: none;
-  }
+.margin-10-0 {
+  margin: 10px 0;
+}
 
-  .header__items-li {
-    border-right: solid 2px #e4e4e4;
-    padding: 0 20px;
-  }
+.margin-0-0-30-0 {
+  margin-bottom: 30px;
+}
 
-  .header__items-li:last-child {
-    border-right: none;
-  }
-  .header__items-a {
-    text-decoration: none;
-    color: #384459;
-  }
+.margin-a {
+  margin: auto;
+}
+.margin-20-0 {
+  margin: 20px 0;
+}
 
-  .header__btn {
-    display: flex;
-    text-decoration: none;
-    background-color: #007979;
-    color: white;
-    font-size: 12px;
-    padding: 20px 10px;
-    gap: 0 10px;
-  }
+.pd-20-30 {
+  padding: 20px 30px;
+}
 
-  .header__btn:hover {
-    opacity: 0.7;
-    transition: 0;
-  }
+.text-ac {
+  text-align: center;
+}
 
-  .top {
-    text-align: center;
-  }
+.gap-10 {
+  gap: 10px;
+  justify-content: center;
+}
+/* テキスト */
+.text-primary {
+  color: #007979;
+}
 
-  .top__hero1 {
-    background-image: url(./img/hero01_bg01.jpg);
-    background-size: cover;
-    padding: 50px;
-    text-align: center;
-  }
+.text-white {
+  color: white;
+}
+.text-10px {
+  font-size: 10px;
+}
 
-  .logo {
-  }
+.text-unbold {
+  font-weight: 100;
+}
 
-  .top__hero1-text {
-    display: flex;
-    justify-content: space-between;
-    padding: 4px 16px;
-    font-size: 10px;
-    color: #007979;
-  }
+.text-undecoration {
+  text-decoration: none;
+}
 
-  .top__btn {
-    padding: 20px 0;
-    color: #007979;
-    font-size: 8px;
-  }
+/* color */
+.color-liner {
+  background: linear-gradient(to right, #2ea1aa, #06bc7a);
+}
 
-  .top__btn-p2 {
-    padding: 20px;
-  }
+/* --------------------------------------------------- */
+/* 通常のCSS */
+/* --------------------------------------------------- */
 
-  .top__btn-a {
-    padding: 20px 30px;
-    background-color: aquamarine;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    gap: 0 0px;
-  }
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+}
 
-  .arrow_sp {
-    width: 12px;
-  }
+.header__items {
+  display: flex;
+  list-style: none;
+}
 
-  .top__btn-a:hover {
-    opacity: 0.7;
-  }
+.header__items-li {
+  border-right: solid 2px #e4e4e4;
+  padding: 0 20px;
+}
+
+.header__items-li:last-child {
+  border-right: none;
+}
+.header__items-a {
+  text-decoration: none;
+  color: #384459;
+}
+
+.header__btn {
+  display: flex;
+  text-decoration: none;
+  background-color: #007979;
+  color: white;
+  padding: 20px 40px;
+  gap: 0 10px;
+}
+
+.header__btn:hover {
+  opacity: 0.7;
+  transition: 0;
+}
+
+.top__hero1 {
+  background-image: url(./img/hero01_bg01.jpg);
+  background-size: cover;
+  padding: 100px 160px;
+  text-align: center;
+  margin: auto;
+}
+
+.top__11 {
+  margin-top: 30px;
 }
