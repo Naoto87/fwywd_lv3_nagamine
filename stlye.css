@@ -8,7 +8,11 @@ img {
   display: inline;
 }
 
-@media screen and (min-width: 1029px) {
+.flex {
+  display: flex;
+}
+
+@media screen and (max-width: 1930px) {
   .header__container {
     display: flex;
     justify-content: space-between;
@@ -57,7 +61,11 @@ img {
     background-size: cover;
   }
 }
-@media screen and (max-width: 1028px) {
+
+/* ------------------------------------------------------------------- */
+/* iphone 639 */
+/* ------------------------------------------------------------------- */
+@media screen and (max-width: 639px) {
   .header__container {
     display: flex;
     justify-content: space-between;
