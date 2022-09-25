@@ -7,7 +7,11 @@ body {
 img {
   display: inline;
 }
-/* レイアウト */
+
+a {
+  display: inline;
+}
+/* レイアウト -----------------------------------------*/
 .flex {
   display: flex;
 }
@@ -16,62 +20,40 @@ img {
   display: block;
 }
 
-.h-100 {
-  height: 100%;
+.justify-between {
+  justify-content: space-between;
 }
 
-.margin-10-0 {
-  margin: 10px 0;
+/* 縦方向に均等揃え */
+.column-even {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-evenly;
 }
 
-.margin-0-0-30-0 {
-  margin-bottom: 30px;
+.relative {
+  position: relative;
 }
 
-.margin-a {
-  margin: auto;
-}
-.margin-20-0 {
-  margin: 20px 0;
-}
-
-.pd-20-30 {
-  padding: 20px 30px;
-}
-
-.text-ac {
+.centerx {
   text-align: center;
 }
 
-.gap-10 {
-  gap: 10px;
-  justify-content: center;
+.width-100 {
+  width: 100%;
 }
-/* テキスト */
-.text-primary {
-  color: #007979;
-}
-
-.text-white {
-  color: white;
-}
-.text-10px {
-  font-size: 10px;
-}
-
-.text-unbold {
-  font-weight: 100;
-}
-
-.text-undecoration {
-  text-decoration: none;
-}
-
 /* color */
 .color-liner {
   background: linear-gradient(to right, #2ea1aa, #06bc7a);
 }
 
+.bg-main {
+  background-color: #f1f7f8;
+}
 /* --------------------------------------------------- */
 /* 通常のCSS */
 /* --------------------------------------------------- */
@@ -114,15 +96,111 @@ img {
   opacity: 0.7;
   transition: 0;
 }
+/* ------------------------------------------------------------------- */
+/* トップページ--------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
 
-.top__hero1 {
+.top__bg {
   background-image: url(./img/hero01_bg01.jpg);
-  background-size: cover;
-  padding: 100px 160px;
-  text-align: center;
-  margin: auto;
+  background-size: contain;
+  background-repeat: repeat-x;
 }
 
-.top__11 {
-  margin-top: 30px;
+.top__left {
+  text-align: center;
 }
+
+.top__logo {
+  padding: 8% 0;
+}
+
+.top__title {
+  padding: 0 80px;
+}
+.top__list {
+  list-style: none;
+  justify-content: center;
+  font-size: 18px;
+  color: #007979;
+}
+
+.top__x {
+  width: 14px;
+  margin: 0 32px;
+}
+
+.top__text {
+  padding-top: 50px;
+  font-size: 14px;
+  color: #007979;
+}
+
+.top__pbtn {
+  padding: 16px 0;
+}
+.top__abtn {
+  padding: 16px 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.top__polygon {
+  width: 16px;
+  margin-right: 10px;
+}
+
+/* ------------------------------------------------------------------- */
+/*ページ1     --------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+.page1 {
+  margin-top: 80px;
+  margin-right: 20%;
+  padding: 4% 0;
+}
+
+.page1__left {
+  width: 50%;
+  padding-left: 16%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-evenly;
+  gap: 40px 0;
+}
+
+.page1__main {
+  color: #007979;
+  font-size: 20px;
+}
+
+.page1__main-sub {
+  font-size: 30px;
+}
+
+.page1__sub1 {
+  color: #007979;
+  font-size: 10px;
+  padding-left: 80px;
+}
+
+.page1__sub2 {
+  color: #007979;
+  font-size: 18px;
+}
+.page1__right {
+  width: 50%;
+  padding-right: 20%;
+  /* margin: 8% 0; */
+}
+
+.page1__pic {
+  position: absolute;
+  top: 40px;
+  width: auto;
+}
+/* ------------------------------------------------------------------- */
+/*ページ2     --------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
