@@ -45,6 +45,16 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-evenly;
 }
+/* 縦方向に中央下揃え */
+.column-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: flex-end;
+}
 
 .relative {
   position: relative;
@@ -362,7 +372,7 @@ a {
   width: 360px;
   height: 485px;
   border-radius: 16px;
-  background-color: aquamarine;
+  background-color: white;
   margin: 0 24px;
 }
 .page5__card-text {
@@ -371,4 +381,19 @@ a {
 .page5__line {
   border-bottom: 2px solid #007979;
   margin: 8px 0;
+}
+/* ------------------------------------------------------------------- */
+/*ページ5 ユーザーの声-------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+.page6__user1 {
+  width: 560px;
+  height: 360px;
+  background-color: azure;
+  margin-top: -20px;
+  margin-left: -590px;
+}
+.page6__underframe {
+  width: 560px;
+  height: 360px;
+  background-color: yellow;
 }
