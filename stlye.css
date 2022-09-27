@@ -58,35 +58,54 @@ a {
 .width-100 {
   width: 100%;
 }
-
+/* margin */
 .margin-top56 {
   margin-top: 56px;
+}
+.margin-top96 {
+  margin-top: 96px;
+}
+.margin-btm96 {
+  margin-bottom: 96px;
+}
+.margin0auto {
+  margin: 0 auto;
 }
 /* カラー --------------------------------------------------------*/
 .color-liner {
   background: linear-gradient(to right, #2ea1aa, #06bc7a);
 }
 
-.text-liner {
-  background: linear-gradient(to right, #2ea1aa 25%, #06bc7a 75%);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 .bg-main {
   background-color: #f1f7f8;
 }
 
-.text-primary {
-  color: #007979;
-}
-
 /* テキスト ------------------------------------------------------------*/
+.font14 {
+  font-size: 14px;
+}
+.font18 {
+  font-size: 18px;
+}
+.font20 {
+  font-size: 20px;
+}
 .font24 {
   font-size: 24px;
 }
 .font32 {
   font-size: 32px;
+}
+.text-primary {
+  color: #007979;
+}
+.text-liner {
+  background: linear-gradient(to right, #2ea1aa 25%, #06bc7a 75%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.line-height24 {
+  line-height: 24px;
 }
 /* -------------------------------------------------------------------- */
 /* -------------------------------------------------------------------- */
@@ -318,13 +337,12 @@ a {
 /* ------------------------------------------------------------------- */
 .page4__hero {
   background-image: url(./img/hero02_bg.jpg);
-  background-size: cover;
   padding: 64px 0px;
   color: white;
   width: 100%;
-  height: 100vh;
+  height: 550px;
   background-repeat: no-repeat;
-  background-size: 100% 40%;
+  background-size: 100% 100%;
 }
 .page4__sub-text {
   padding: 32px 0;
@@ -332,4 +350,25 @@ a {
 .page4__btn-text {
   font-size: 14px;
   color: white;
+}
+/* ------------------------------------------------------------------- */
+/*ページ5 差別化ポイント-------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+.page5__bg {
+  background-color: #f1f7f8;
+  padding: 96px 0;
+}
+.page5__card {
+  width: 360px;
+  height: 485px;
+  border-radius: 16px;
+  background-color: aquamarine;
+  margin: 0 24px;
+}
+.page5__card-text {
+  margin: 0 20px;
+}
+.page5__line {
+  border-bottom: 2px solid #007979;
+  margin: 8px 0;
 }
