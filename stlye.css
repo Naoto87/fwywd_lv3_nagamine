@@ -383,17 +383,41 @@ a {
   margin: 8px 0;
 }
 /* ------------------------------------------------------------------- */
-/*ページ5 ユーザーの声-------------------------------------------------------- */
+/*ページ6 ユーザーの声-------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
-.page6__user1 {
-  width: 560px;
-  height: 360px;
-  background-color: azure;
-  margin-top: -20px;
-  margin-left: -590px;
+.page6__ {
+  padding: 100px 0;
+  background-color: aquamarine;
 }
-.page6__underframe {
-  width: 560px;
+.page6__user-top {
+  gap: 0 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+.page6__user1 {
+  width: 568px;
   height: 360px;
-  background-color: yellow;
+  padding: 0 45px;
+  border-radius: 16px; /*1*/
+  border: 6px solid transparent; /*2*/
+  background: linear-gradient(to right, #2ea1aa, #06bc7a) border-box; /*3*/
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #2ea1aa, #06bc7a) border-box;
+}
+.page6__line {
+  border-bottom: 3px solid #f2c94c;
+  margin: 5px 15% 0 15%;
+}
+.page6__name {
+  margin: 8px 0;
+}
+.page6__sample-text {
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.page6__user-btm {
+  gap: 0 64px;
+  margin-top: 134px;
+  /* margin-bottom: 64px; */
 }
