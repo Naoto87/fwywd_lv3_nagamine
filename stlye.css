@@ -447,3 +447,35 @@ a {
   background: linear-gradient(white, white) padding-box,
     linear-gradient(to right, #2ea1aa, #06bc7a) border-box;
 }
+
+/* ------------------------------------------------------------------- */
+/*ページ 料金-------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+.page7__ {
+  padding: 112px 0;
+  background-color: #fafafa;
+}
+.page7__plan {
+  gap: 0 20px;
+}
+.page7__price {
+  background-color: #ffffff;
+  padding: 24px 40px 32px;
+  border: 2px solid #e1e1e1;
+  border-radius: 16px;
+  gap: 16px;
+}
+.page7__list {
+  list-style: none;
+  text-align: left;
+}
+.page7__list-last {
+  color: #bdbdbd;
+}
+.page7__text-box {
+  display: inline-block;
+  color: #06bc7a;
+  padding: 22px 10%;
+  background-color: #f2c94c;
+  border-radius: 16px;
+}
