@@ -80,6 +80,9 @@ a {
 .margin-top96 {
   margin-top: 96px;
 }
+.margin-top160 {
+  margin-top: 240px;
+}
 .margin-btm96 {
   margin-bottom: 96px;
 }
@@ -285,7 +288,14 @@ a {
 .page2__bg {
   padding-top: 104px;
 }
-
+.page2__main-icon {
+  position: absolute;
+  top: -72px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
 .page2__text {
   font-size: 40px;
 }
