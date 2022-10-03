@@ -71,6 +71,10 @@ a {
 .centerx {
   text-align: center;
 }
+/* 縦方向中央揃え */
+.centery {
+  align-items: center;
+}
 
 .width-100 {
   width: 100%;
@@ -93,6 +97,9 @@ a {
 }
 .margin-btm16 {
   margin-bottom: 16px;
+}
+.margin-btm8 {
+  margin-bottom: 8px;
 }
 .margin0auto {
   margin: 0 auto;
@@ -124,6 +131,9 @@ a {
 }
 .font32 {
   font-size: 32px;
+}
+.font-w500 {
+  font-weight: 500;
 }
 .text-primary {
   color: #007979;
@@ -528,12 +538,52 @@ a {
 .page8__logo {
   width: 191px;
 }
+.page8__title {
+}
+.page8__x {
+  margin: 0 2%;
+}
 /* ------------------------------------------------------------------- */
-/*ページ9 hero -------------------------------------------------------- */
+/*ページ9 footer -------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
 .page9__ {
   background-color: #384459;
   color: #ffffff;
+  padding: 112px 15% 48px;
+}
+.footer__div1 {
+}
+.footer__logo {
+  width: 156px;
+}
+.footer__title {
+  margin-right: 5%;
+}
+.footer__text-sns {
+  position: absolute;
+  top: -70%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
 }
 .footer__list-sns {
+  gap: 0 16px;
+}
+.footer__linkbox {
+  width: 64px;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__border {
+  border-top: 2px solid white;
+  margin-top: 24px;
+  margin-bottom: 56px;
+}
+.footer__about {
+  width: 20%;
 }
